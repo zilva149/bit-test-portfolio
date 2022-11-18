@@ -5,12 +5,12 @@
     width: 100px;
     top: 0;
     left: 0;
-    padding: 52px 11px;
+    padding: 52px 0;
 }
 
 .logo-container {
     position: relative;
-    margin: 0 5px;
+    margin: 0 16px;
     margin-bottom: 3rem;
 }
 
@@ -26,4 +26,17 @@
     left: 0;
     right: 0;
     bottom: -10px;
+}
+
+.nav {
+    margin-left: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-link {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 25px 0px 0px 25px;
 }

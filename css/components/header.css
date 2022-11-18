@@ -1,0 +1,29 @@
+.header {
+    position: absolute;
+    background-color: var(--bg-secondary);
+    height: 100%;
+    width: 100px;
+    top: 0;
+    left: 0;
+    padding: 52px 11px;
+}
+
+.logo-container {
+    position: relative;
+    margin: 0 5px;
+    margin-bottom: 3rem;
+}
+
+.logo {
+    max-width: 68px;
+    margin: 0 auto;
+}
+
+.logo-underline {
+    position: absolute;
+    background-color: var(--gray);
+    height: 2px;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
